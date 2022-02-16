@@ -8,9 +8,11 @@ def main():
     get = calcGET(tmb, activety)
     protein = calcProtein(weight)
     fat = calcFat(weight)
-    print(f'Você tem que comer {get} cal por dia.')
+    print(f'Você tem que comer {get} cal por dia')
     print(f'{protein}g proteina')
     print(f'{fat}g gordura')
+    print(f'Resto das calorias comer de carboidrato!')
+    print(f'Eu recomendo pra você o app FatSecret para caulo de macronutrientes e caloria dos alimentos.')
 
 def getheight():
     while True:
